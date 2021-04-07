@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'Train One', cursive;
+}
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    margin: 10px;
+    padding: 10px;
+    width: 45vh;
+    height: 5vh;
+    background-color: rgb(249, 250, 252);
+    color: black;
+    border-radius: 10px;
+    
+}
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li #deleteBtn_Id{
+    width: 10vh;
+    height: 3vh;
+    color: black;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 3vh;
+}
+#form_Id{
+    display: flex;
+    flex-direction: column;
+}
+
+#AddTaskInp_Id{
+    padding: 5px;
+    margin: 10px;
+    width: 40vh;
+    height: 7vh;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px black;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#addBtn_Id{
+    position: relative;
+    width: 15vh;
+    left: 12vh;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#deleteTask_Btn{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    padding: 5px;
+    font-size: 25px;
+}
+
+
